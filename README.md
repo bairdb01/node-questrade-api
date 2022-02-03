@@ -1,2 +1,4 @@
-# questrade-discord-bot
-Share your QuestTrade account with others!
+# Javascript Questrade API
+
+
+Questrade API access with javascript
