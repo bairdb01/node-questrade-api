@@ -1,4 +1,4 @@
-# Javascript Questrade API
+# Typescript Questrade API
 
 
-Questrade API access with javascript
+Questrade API access with typescript
