@@ -60,7 +60,7 @@ class Questrade {
   async getAccountBalances(accountNumber: string): Promise<any[]> {
     const uri = `${accountNumber}/balances`;
     const balances = await this._getAccountRequest(uri);
-    return [];
+    return balances;
   };
 
   /**
@@ -71,7 +71,7 @@ class Questrade {
   async getActivities(accountNumber: string): Promise<any[]> {
     const uri = `${accountNumber}/balances`;
     const activities = await this._getAccountRequest(uri);
-    return [];
+    return activities;
   };
 
   /**
@@ -82,7 +82,7 @@ class Questrade {
   async getOrders(accountNumber: string): Promise<any[]> {
     const uri = `${accountNumber}/balances`;
     const orders = await this._getAccountRequest(uri);
-    return [];
+    return orders;
   };
 
   /**
@@ -93,7 +93,7 @@ class Questrade {
   async getExecutions(accountNumber: string): Promise<any[]> {
     const uri = `${accountNumber}/balances`;
     const executions = await this._getAccountRequest(uri);
-    return [];
+    return executions;
   };
 
   /**
@@ -104,7 +104,7 @@ class Questrade {
   async getPositions(accountNumber: string):  Promise<any[]> {
     const uri = `${accountNumber}/balances`;
     const positions = await this._getAccountRequest(uri);
-    return []
+    return positions;
   };
 
   /**
