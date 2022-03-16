@@ -121,19 +121,3 @@ class Questrade {
         });
   };
 }
-
-/**
- * Temporary basic testing of functions
- */
-async function test() {
-  const a: Questrade = new Questrade();
-  await a.getAccounts();
-  await a.getAccountBalances(process.env.ACCOUNT_NUMBER ?? '');
-  await a.getActivities(process.env.ACCOUNT_NUMBER ?? '');
-  await a.getOrders(process.env.ACCOUNT_NUMBER ?? '');
-  await a.getExecutions(process.env.ACCOUNT_NUMBER ?? '');
-  await a.getPositions(process.env.ACCOUNT_NUMBER ?? '');
-  console.log(await a.getServerTime());
-}
-
-test();
